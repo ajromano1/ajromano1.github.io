@@ -1,0 +1,116 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Page1 Styles */
+#big-name-container {
+    padding: 20px 110px;
+    padding-top: 20px;
+    border: 2px solid #3a3737;
+    width: 620px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#big-name {
+    margin: 0 auto;
+    width: 6em;
+    font-size: 4.4em;
+    font-weight: 500;
+    color:#343131;
+    text-align: center;
+}
+
+#link-container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+#link-container a:link {
+    color: gray;
+    text-decoration: none;
+    margin-left: 18px;
+    margin-right: 5px;
+}
+
+#home-link{
+    color: black;
+}
+
+#link-container a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#link-container a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#picture-list {
+    margin: 100px auto 20px;
+    width: 900px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#picture-list img{
+    margin: 10px 0;
+    width: 100%;
+    height: 940px;
+    display: block;
+}
+
+#pier{
+    transform: scale(1.76,1);
+}
+
+#road{
+    transform: scale(1.9,1);
+}
+
+#lake{
+    transform: scale(1.55,1);
+}
+
+footer {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#copyright-section{
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 8pt;
+    font-weight: bold;
+    width: 100%;
+    color:#616161;
+    text-align: center;
+}
+#social-media-links {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#social-media-links img {
+    margin: 10px;
+}
+#social-media-links a {
+    height: 100%;
+    display: inline-block;
+}
+
+/* Page2 Styles */
+#home,#nature,#urban,#bio {
+    font-weight:bold;
+    font-size: 2em;
+    margin-bottom:300px;
+}
