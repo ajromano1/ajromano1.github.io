@@ -1,8 +1,12 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 /* Page1 Styles */
+#page-container{
+    width:1000px;
+    margin: 0 auto;
+}
+
 #big-name-container {
     padding: 20px 110px;
     padding-top: 20px;
@@ -80,7 +84,7 @@ body {
 }
 
 footer {
-    width: 200px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -89,12 +93,12 @@ footer {
     font-style: italic;
     font-size: 8pt;
     font-weight: bold;
-    width: 100%;
+    width: 300px;
     color:#616161;
     text-align: center;
 }
 #social-media-links {
-    width: 100%;
+    width: fit-content;
     margin: 0 auto;
     padding-left: 15%;
     padding-right: 15%;
